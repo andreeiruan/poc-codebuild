@@ -5,8 +5,7 @@ phases:
       - echo $AWS_DEFAULT_REGION
       - echo $URL
   build: 
-    steps:
-      - uses: actions/checkout@v3
+    steps:      
       - uses: actions/setup-node@v3        
         with:
           node-version: '18'
